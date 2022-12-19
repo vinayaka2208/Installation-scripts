@@ -15,4 +15,6 @@ sudo apt install docker-ce -y
 
 #sudo systemctl status docker
 
+#Giving executable permission to docker.sock
+
 sudo chmod 777 /var/run/docker.sock
